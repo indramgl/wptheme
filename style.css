@@ -1,0 +1,36 @@
+/*
+Theme Name: Saphir
+Theme URI: https://example.com/saphir
+Author: Indramgl
+Author URI: https://example.com
+Description: A high-end, luxury hotel theme for 4-star properties, featuring a calming blue-dominant aesthetic.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: saphir
+*/
+
+:root {
+  --color-primary: oklch(0.55 0.15 250); /* Deep Luxury Blue */
+  --color-secondary: oklch(0.95 0.02 240); /* Soft Sky Blue */
+  --color-neutral-dark: oklch(0.2 0.01 240); /* Dark Navy for Text */
+  --color-neutral-light: oklch(0.98 0.005 240); /* Off-white surface */
+  
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  
+  --space-md: 16px;
+  --space-lg: 32px;
+}
+
+body {
+  background-color: var(--color-neutral-light);
+  color: var(--color-neutral-dark);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  color: var(--color-primary);
+}
