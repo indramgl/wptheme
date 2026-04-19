@@ -18,9 +18,9 @@ class Saphir_Booking_Bar_Widget extends \Elementor\Widget_Base {
 
     protected function render() {
         echo '<div class="saphir-booking-bar">
-                <input type="date" placeholder="Check-in">
-                <input type="date" placeholder="Check-out">
-                <button class="button-primary">Book Now</button>
+                <input type="date" placeholder="' . esc_attr__( 'Check-in', 'saphir' ) . '">
+                <input type="date" placeholder="' . esc_attr__( 'Check-out', 'saphir' ) . '">
+                <button class="button-primary">' . esc_html__( 'Book Now', 'saphir' ) . '</button>
               </div>';
     }
 }
