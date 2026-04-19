@@ -19,6 +19,13 @@ Text Domain: saphir
   --font-display: 'Playfair Display', serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
   
+  /* Modular Type Scale */
+  --text-sm: 0.8rem;
+  --text-base: 1rem;
+  --text-md: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+  --text-lg: clamp(1.25rem, 1.15rem + 0.5vw, 1.75rem);
+  --text-xl: clamp(1.75rem, 1.5rem + 1.25vw, 3.5rem);
+  
   --space-md: 16px;
   --space-lg: 32px;
 }
@@ -27,10 +34,16 @@ body {
   background-color: var(--color-neutral-light);
   color: var(--color-neutral-dark);
   font-family: var(--font-body);
+  font-size: var(--text-base);
   line-height: 1.6;
 }
 
 h1, h2, h3 {
   font-family: var(--font-display);
   color: var(--color-primary);
+  line-height: 1.2;
 }
+
+h1 { font-size: var(--text-xl); }
+h2 { font-size: var(--text-lg); }
+h3 { font-size: var(--text-md); }
