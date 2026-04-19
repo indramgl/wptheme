@@ -15,17 +15,15 @@ Text Domain: saphir
   --color-secondary: oklch(0.95 0.02 240); /* Soft Sky Blue */
   --color-neutral-dark: oklch(0.2 0.01 240); /* Dark Navy for Text */
   --color-neutral-light: oklch(0.98 0.005 240); /* Off-white surface */
-  
   --font-display: 'Playfair Display', serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
-  
+
   /* Modular Type Scale */
   --text-sm: 0.8rem;
   --text-base: 1rem;
   --text-md: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
   --text-lg: clamp(1.25rem, 1.15rem + 0.5vw, 1.75rem);
   --text-xl: clamp(1.75rem, 1.5rem + 1.25vw, 3.5rem);
-  
   --space-md: 16px;
   --space-lg: 32px;
 }
@@ -38,7 +36,9 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-display);
   color: var(--color-primary);
   line-height: 1.2;

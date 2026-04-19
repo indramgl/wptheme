@@ -41,8 +41,5 @@ wp-config.php
 # uncomment the next line
 #/wp-content/plugins
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# Dependencies
+node_modules/

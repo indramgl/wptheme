@@ -17,6 +17,9 @@ As a WordPress theme, the project is expected to follow the standard theme hiera
 - `template-parts/`: Modular template fragments.
 - `assets/` or `src/`: Directory for CSS, JS, and image source files.
 
+## Architecture Decisions
+*   **Elementor Page Builder:** The Saphir theme project uses Elementor as the page builder. Adjust all future development, architecture, and theme scaffolding strategies to be Elementor-compatible (e.g., ensuring theme-wide support for Elementor's header/footer/template system, and focusing theme code on structural logic rather than manual template layout).
+
 ## Building and Running
 ### Local Development
 To develop and test this theme, you will need a local WordPress environment:
